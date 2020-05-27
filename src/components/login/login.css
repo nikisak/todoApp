@@ -1,0 +1,42 @@
+.logincontainer {
+  width: 350px;
+  /*height: 250px;*/
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+}
+
+.logininput {
+  padding: 8px 15px 8px 15px;
+  font-size: 15px;
+  color: black;
+}
+
+.loginbutton {
+  background-color: steelblue !important;
+  color: white !important;
+  margin-left:2px;
+  margin-right: 2px;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2%;
+}
+
+.error {
+  color:red;
+}
+
+.msg {
+  text-align: center;
+  font-size: 14px;
+  padding:1%;
+}
+
+.success {
+  color:lightgreen;
+}
